@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Printf("String: %s, rune slice: %v\n", s, r)
 	for _, value := range s {
-		if value == 'g' {
+		if value == 'g' || value == 'o' {
 			fmt.Println(strings.ToUpper(string(value)))
 		}
 	}
